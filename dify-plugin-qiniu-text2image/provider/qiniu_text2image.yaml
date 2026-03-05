@@ -1,0 +1,36 @@
+identity:
+  author: "KirisameRyan"
+  name: "qiniu_text2image"
+  label:
+    en_US: "Qiniu Text to Image"
+    zh_Hans: "七牛云文生图"
+    ja_JP: "七牛雲 文生図"
+    pt_BR: "Qiniu Text to Image"
+  description:
+    en_US: "Generate high-quality images from text using Qiniu Cloud AI (Gemini models)"
+    zh_Hans: "使用七牛云 Gemini 模型将文本生成高质量图片"
+    ja_JP: "七牛雲AIでテキストから高品質画像を生成"
+    pt_BR: "Generate high-quality images from text using Qiniu Cloud AI"
+  icon: "icon.svg"
+
+credentials_for_provider:
+  api_key:
+    type: secret-input
+    required: true
+    label:
+      en_US: Qiniu AI API Key
+      zh_Hans: 七牛云 AI API Key
+    placeholder:
+      en_US: "sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      zh_Hans: "sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    help:
+      en_US: Get your API Key from Qiniu AI Console (console.qiniu.com/ai)
+      zh_Hans: 请在七牛云AI控制台获取(以 sk- 开头)
+    url: https://console.qiniu.com/ai
+
+tools:
+  - tools/qiniu_text2image.yaml
+
+extra:
+  python:
+    source: provider/qiniu_text2image.py
