@@ -81,7 +81,7 @@ Images are returned directly to Dify as base64. The plugin does not store them.
 ## 3. Third Party Service
 Data is sent to **Qiniu Cloud official API**.  
 Please refer to Qiniu’s privacy policy:  
-https://www.qiniu.com/privacy
+https://www.qiniu.com/agreements/privacy-right(https://www.qiniu.com/agreements/privacy-right)
 
 ## 4. Data Storage
 - No database is used
